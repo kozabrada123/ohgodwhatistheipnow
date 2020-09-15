@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "ohgodwhat",
-    "currentPage": "index.html",
+    "name": "ohgodwhatistheipnow",
+    "currentPage": "ip.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
     "siteFonts": [],
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/pexels-fauxels-3184455.jpg",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -44,10 +44,10 @@
     "versionPublish": "4.12.3"
   },
   "pages": {
-    "index.html": {
+    "ip.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "ip",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
