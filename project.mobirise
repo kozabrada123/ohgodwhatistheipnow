@@ -1,21 +1,21 @@
 {
   "settings": {
-    "name": "ohgodwhatistheipnow",
+    "name": "oh god what is the ip now",
     "currentPage": "ip.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#149dcc",
+        "primaryColor": "#ffffff",
         "secondaryColor": "#ff3366",
         "successColor": "#F7ED4A",
         "infoColor": "#82786E",
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
-        "display1Font": "Rubik",
+        "display1Font": "Roboto",
         "display1Size": 4.25,
-        "display2Font": "Rubik",
+        "display2Font": "PT Sans Narrow",
         "display2Size": 3,
         "display5Font": "Rubik",
         "display5Size": 1.5,
@@ -24,23 +24,40 @@
         "display4Font": "Rubik",
         "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       },
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
-    "siteFonts": [],
-    "favicon": "@PROJECT_PATH@/assets/images/pexels-fauxels-3184455.jpg",
+    "siteFonts": [
+      {
+        "css": "'Roboto Mono', monospace",
+        "name": "Roboto Mono",
+        "url": "https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i"
+      },
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      },
+      {
+        "css": "'PT Sans Narrow', sans-serif",
+        "name": "PT Sans Narrow",
+        "url": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/download-1.jpg",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 1,
+    "uniqCompNum": 2,
     "versionPublish": "4.12.3"
   },
   "pages": {
